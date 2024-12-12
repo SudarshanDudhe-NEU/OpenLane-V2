@@ -30,7 +30,7 @@ Please follow the steps below to get familiar with the OpenLane-V2 dataset.
     ```sh
     git clone https://github.com/OpenDriveLab/OpenLane-V2.git
     cd OpenLane-V2
-    conda create -n openlanev2 python=3.8 -y
+    conda create -n openlanev2 python=3.10 -y
     conda activate openlanev2
     pip install -r requirements.txt
     python setup.py develop
